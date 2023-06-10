@@ -28,8 +28,6 @@ a:focus {
     color: #333333;
     outline: none;
     text-decoration: none;
-    background-color: white;
-    border-radius: px;
 }
 
 .btn:focus {
@@ -78,12 +76,6 @@ a:focus {
     color: white !important;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 3%;
-}
-
 .header {
     position: relative;
     width: 100%;
@@ -101,10 +93,6 @@ img {
 
 .hero.row{
     background: linear-gradient(rgba(67, 124, 42, 1), rgba(67, 124, 42, .9), rgba(67, 124, 42, 1)), url(../img/header.jpg); 
-}
-
-.header .brand img:hover {
-    filter: brightness(120%);
 }
 
 @media (min-width: 992px) {
@@ -130,12 +118,11 @@ img {
 }
 
 .header .brand img {
-    /* width: 100%; */
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    max-height: 100px;
 }
-
 
 .header .topbar {
     position: relative;
@@ -1109,20 +1096,9 @@ img {
 /*******************************/
 /******* Testimonial CSS *******/
 /*******************************/
-/* span .yelp-review  {    
-    width: 90%;
-    margin-left: 5px;
-}
-
-.yelp-review {
+.testimonial {
     position: relative;
-    margin: 0 15px;
-    text-align: center;
-} */
-
-.testimonial{
-    width: 100%;
-    height: auto;
+    padding: 45px 0;
 }
 
 .testimonial .testimonial-item {
@@ -1815,7 +1791,6 @@ img {
     background:rgba(67, 124, 42);
     color: #ffffff;
     font-weight: 300;
-    text-align: center;
 }
 
 .footer .footer-contact,
